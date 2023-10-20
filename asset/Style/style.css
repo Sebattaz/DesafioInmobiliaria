@@ -21,9 +21,14 @@
     display: flex;
     list-style: none;
 }
-.linkCabecera li{
+.linkCabecera a{
     text-decoration: none;
+    color: black;
 }
+.linkCabecera a:hover{
+    color:brown;
+}
+
 .imgCabecera img{
     width: 1300px;
     height: 250px;
